@@ -61,7 +61,7 @@ There was also a second CloudFormation stack for the node group, which consists 
 
 I had to create an IAM access entry in order to ensure that my AWS IAM user could access the nodes in my EKS cluster. An access entry connects my IAM user with Kubernetes' Role-Based Access Control (RBAC), allowing me to interact with the resources inside the cluster. I set it up by selecting my IAM user's ARN and applying the AmazonEKSClusterAdminPolicy, which grants full administrative rights over the cluster. 
 
-It took 15 to create my cluster. Since I’ll create this cluster again in the next project of this series, maybe this process could be sped up if I familiarize myself with the steps beforehand and ensure that all necessary permissions are correctly set up in advance.
+It took 15 minutes to create my cluster. Since I’ll create this cluster again in the next project of this series, maybe this process could be sped up if I familiarize myself with the steps beforehand and ensure that all necessary permissions are correctly set up in advance.
 
 ![Image](http://learn.nextwork.org/blissful_yellow_calm_donkey/uploads/aws-compute-eks1_e5f6g7h8)
 
